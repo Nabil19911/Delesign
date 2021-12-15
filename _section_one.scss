@@ -1,0 +1,95 @@
+.section_one {
+  background: #f7f7f7 url("./assets/background/section-one-bg.png") no-repeat
+    bottom center / contain;
+  height: 100vh;
+  max-height: 600px;
+  .what_we_do_service {
+    // Service description
+    .what_we_do_service__description {
+      width: 480px;
+      p {
+        width: 410px;
+        line-height: 22px;
+      }
+    }
+    // Service icons
+    .what_we_do_service__icon_wrapper {
+      transform: translate(-50px, 150px);
+      .icon_row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 675px;
+        gap: 45px;
+        .icon_warpper {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          height: auto;
+          width: 90px;
+          .image_wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            width: 90px;
+            height: 90px;
+            border-radius: 100%;
+            box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+            transition: background 0.5s;
+            &:hover {
+              background: #00aef0;
+              img {
+                filter: drop-shadow(0px 0px 4px white);
+              }
+            }
+          }
+          p {
+            text-align: center;
+            text-transform: capitalize;
+          }
+          &:nth-child(1) {
+            p {
+              width: 50px;
+            }
+          }
+          &:nth-child(2) {
+            transform: translateY(-25px);
+          }
+          &:nth-child(3) {
+            transform: translateY(-50px);
+          }
+          &:nth-child(4) {
+            transform: translateY(-50px);
+            p {
+              width: 120px;
+            }
+          }
+          &:nth-child(5) {
+            transform: translateY(-75px);
+          }
+          &:nth-child(6) {
+            transform: translateY(-25px);
+          }
+          &:nth-child(7) {
+            transform: translateY(-35px);
+          }
+          &:nth-child(8) {
+            transform: translateY(-45px);
+            p {
+              width: 120px;
+            }
+          }
+          &:nth-child(9) {
+            transform: translateY(-65px);
+          }
+        }
+        &:nth-child(1) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

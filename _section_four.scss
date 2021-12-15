@@ -1,0 +1,18 @@
+.section_four {
+  background: #f7f7f7 url("./assets/background/middle-down.png") no-repeat
+    bottom center / contain;
+  height: 100vh;
+  max-height: 450px;
+  .how_it_works {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    p {
+      width: 367px;
+      line-height: 20px;
+    }
+    a {
+      margin-bottom: 30px;
+    }
+  }
+}

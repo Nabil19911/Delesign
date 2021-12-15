@@ -1,0 +1,43 @@
+.section_two {
+  background-color: $white;
+  .schedule {
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .schedule__detail {
+      margin-bottom: 30px;
+    }
+    .schedule__time {
+      width: 681px;
+      height: 268px;
+      display: flex;
+      text-transform: uppercase;
+      font-weight: bold;
+      h3 {
+        font-size: 20px;
+      }
+      p {
+        color: $white;
+        font-size: 12px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 341px;
+        height: 268px;
+      }
+      .schedule__day_time {
+        background: url("./assets/schadule-bg/day.png") no-repeat center / cover;
+      }
+      .schedule__night_time {
+        background: url("./assets/schadule-bg/night.png") no-repeat center /
+          cover;
+      }
+    }
+  }
+}

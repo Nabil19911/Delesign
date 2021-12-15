@@ -1,0 +1,29 @@
+.section_three {
+  background: url("./assets/background/middle2.png") no-repeat bottom center /
+    contain;
+  color: black;
+  height: 100vh;
+  max-height: 400px;
+  .our_service {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      font-size: 26px;
+    }
+    .services {
+      display: flex;
+      text-align: center;
+      gap: 30px;
+      margin-top: 90px;
+      div {
+        width: 125px;
+        p {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}

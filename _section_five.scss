@@ -1,0 +1,55 @@
+.section_five {
+  position: relative;
+  height: 600px;
+  .testimonial {
+    display: inline-flex;
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 90px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    cursor: grab;
+    .card {
+      min-width: 310px;
+      margin: 5px;
+      text-align: center;
+      > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0 15px;
+        margin-top: 30px;
+        img {
+          width: 130px;
+          border-radius: 100%;
+        }
+        .testimony {
+          display: flex;
+          flex-direction: column;
+          gap: 82px;
+          > p {
+            min-height: 165px;
+            line-height: 24px;
+          }
+          .users {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 18px;
+            .name {
+              text-transform: uppercase;
+            }
+            .location {
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+}
